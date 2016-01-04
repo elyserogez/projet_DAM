@@ -1,0 +1,85 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="css/metro.css" type="text/css" rel="stylesheet"/>
+  <link href="css/metro-responsive.css" type="text/css" rel="stylesheet"/>
+  <link href="css/menu.css" type="text/css" rel="stylesheet"/>
+  
+  
+  <title>Document sans nom</title>
+  </head>
+  
+  <body class="bg-grayLighter">
+  <div class="container ">
+  <div>
+  <img src="images/logoUT2J.png" data-format="bd" />
+  <img src="images/logo.png" data-format="bd" />
+  
+  
+  </div>
+  <br />
+ 
+  <ul class="f-menu bg-active-lighterTeal">
+      <li><a href="#">Générer un document</a></li>
+      <li><a href="#" class="dropdown-toggle">Gérer les données</a>  
+          <ul  class="d-menu" data-role="dropdown">
+                  <li><a href="#" class="dropdown-toggle">Licences</a>
+                      <ul class="d-menu" data-role="dropdown">
+                          <li><a href="#">L1 Documentation</a></li>
+                          <li><a href="#">L2-3 Documentation</a></li>
+                          <li><a href="#">L2-3 Documentation musicale</a></li>
+                          <li><a href="#">L2-3 Patrimoine des bibliothèques</a></li>
+						  <li><a href="#">L2-3 Image</a></li>
+						  <li><a href="#">L2-3 Archives</a></li>
+						  <li><a href="#">L2-3 Bibliothèque</a></li>
+                      </ul>
+                  </li>
+                <li><a href="#" class="dropdown-toggle">Licences professionnelles</a>
+                      <ul class="d-menu" data-role="dropdown">
+                          <li><a href="#">Lpro Librairie</a></li>
+                          <li><a href="#">Lpro Edition</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-toggle">Masters</a>
+                      <ul class="d-menu" data-role="dropdown">
+                          <li><a href="#">M1 Info-Comm</a></li>
+                          <li><a href="#">M2 ARI</a></li>
+                          <li><a href="#">M2 IDE</a></li>
+                          <li><a href="#">M2 IEE</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#" class="dropdown-toggle">Diplômes universitaires</a>
+                      <ul class="d-menu" data-role="dropdown">
+                          <li><a href="#">Médiathécaire Documentaliste</a></li>
+                    </ul>
+              </li>
+           </ul>
+         </li>
+         <li><a href="#">Gérer les utilisateurs</a></li> 
+  </ul>
+  <br />
+  
+  <br />
+  
+  <button onClick="showCharm(test)">test</button>
+   <label class="switch">
+      <input type="checkbox">
+      <span class="check"></span>
+  </label>
+  <div data-role="charm" data-position="left" id="test">
+      fhjdgsjfdshjfdvcvw;cjhwcjxc
+  </div>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/metro.js"></script>
+  <script type="text/javascript">function showCharm(id){
+      var  charm = $(id).data("charm");
+      if (charm.element.data("opened") === true) {
+          charm.close();
+      } else {
+          charm.open();
+      }
+  }
+  </script>
+  </body>
+  </html>
