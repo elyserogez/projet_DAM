@@ -8,14 +8,16 @@
 </head>
   
 <body>
+<div class="container">
 <div>
 <img src="images/logoUT2J.png"/>
-<img src="images/logo.png"/>
+<img src="images/logo_DAM.png"/>
 </div>
 
 <ul id="menu">
-<li class="doc"><a href="#">Générer un document</a></li>
-<li class="donnees"><a href="#" class="dropdown-toggle">Gérer les données</a>  
+<li id="doc"><a href="#">Générer un document</a></li>
+<li id="donnees"><a href="#">Gérer les données</a>  
+<div class="deroulant1">
     <ul>
     <li><a href="#">Licences</a>
 	<ul>
@@ -34,28 +36,29 @@
 		<li><a href="#">L3 Bibliothèque</a></li>
     </ul>
     </li>
-	<li><a href="#" class="dropdown-toggle">Licences professionnelles</a>
+	<li><a href="#">Licences professionnelles</a>
 	<ul>
 		<li><a href="#">Lpro Librairie</a></li>
 		<li><a href="#">Lpro Edition</a></li>
     </ul>
 	</li>
-	<li><a href="#" class="dropdown-toggle">Masters</a>
+	<li><a href="#">Masters</a>
 	<ul>
-		<li><a href="#">M1 Info-Comm</a></li>
-		<li><a href="#">M2 ARI</a></li>
-		<li><a href="#">M2 IDE</a></li>
-		<li><a href="#">M2 IEE</a></li>
+		<li class="niveau_3"><a href="#">M1 Info-Comm</a></li>
+		<li class="niveau_3"><a href="#">M2 ARI</a></li>
+		<li class="niveau_3"><a href="#">M2 IDE</a></li>
+		<li class="niveau_3"><a href="#">M2 IEE</a></li>
 	</ul>
 	</li>
-	<li><a href="#" class="dropdown-toggle">Diplômes universitaires</a>
+	<li><a href="#">Diplômes universitaires</a>
 	<ul>
-		<li><a href="#">Médiathécaire Documentaliste</a></li>
+		<li class="niveau_3"><a href="#">Médiathécaire Documentaliste</a></li>
 	</ul>
     </li>
     </ul>
+</div>
     </li>
-<li><a href="#">Gérer les utilisateurs</a></li> 
+<li id="utilisateurs"><a href="#">Gérer les utilisateurs</a></li> 
 </ul>
   
 <!--<button onClick="showCharm(test)">test</button>
@@ -85,7 +88,11 @@
   
 </div>
   
-  
-  
+<footer>
+<div class="cond"> Conditions d'utilisation </div>
+<div class="derconnexion"> Dernière connexion : ... </div>
+</footer>  
+
+</div> 
 </body>
 </html>

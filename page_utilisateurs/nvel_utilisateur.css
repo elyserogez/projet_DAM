@@ -3,6 +3,12 @@ font-family : "Lato";
 background-color : #F8F8F8;
 }
 
+.container{
+width : 1200px;
+margin-left : auto ;
+margin-right : auto ;
+}
+
 #menu{
 border-top : 1px solid black ;
 border-left : 1px solid black ;
@@ -17,10 +23,66 @@ border-left: 1px solid #000;
 display : block ;
 }
 
-.doc{
+a{
+text-decoration : none ;
+}
+
+#doc{
 float : left ;
 }
 
-.donnees{
-overflow : hidden;
+#donnees{
+float : left ;
+}
+
+#utilisateurs{
+float : left ;
+}
+
+
+.donnees:hover{
+background-color : #A9A9F5 ;
+color : white ;	
+}
+
+li:hover .deroulant1 {display : block ;}
+
+.deroulant1 {position : absolute ;
+background-color : #E0FFFF ;
+text-align : left ;
+left : 400px ;
+display : none ;
+font-size : 80% ;
+box-shadow : 0px 0px 5px ;
+}
+
+/*li:hover .deroulant2 {display : block ;}
+
+.deroulant2 {position : absolute ;
+background-color : #E0FFFF ;
+text-align : left ;
+left : 400px ;
+display : none ;
+font-size : 80% ;
+box-shadow : 0px 0px 5px ;
+border-radius : 10px ;}*/
+
+.niveau_3{
+display : block ;
+}
+
+footer{
+border-top : 1px solid black ;
+}
+
+.cond {
+width : 50% ;
+float : left ;
+text-align : center ;
+}
+
+.derconnexion {
+width : 50% ;
+float : left ;
+text-align : center ;
 }
